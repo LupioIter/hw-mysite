@@ -5,26 +5,85 @@
     <meta charset="utf-8">
     <title>Lupio-coder</title>
     <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/3325/PNG/512/armchair_sofa_furniture_seat_icon_209730.png" type="image/svg">
-    <link rel="stylesheet" href="assets/design.css">
-    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    
+    <style>
+        #logo {
+            width: 80px;
+            border-radius: 10px;
+            position: absolute;
+            top: 30px;
+            
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: rgb(231, 167, 236);
+            padding: 4px;
+            font-weight: bolder;
+            position: absolute;
+            left: 280px;
+            top: 55px;
+        }
+
+        .menu :hover {
+            text-decoration: underline;
+            color: rgb(80, 65, 218);
+        }
+
+        #name {
+            color: rgb(80, 65, 218);
+            font-weight: bolder;
+            font-size: 130%;
+            position: absolute;
+            left: 140px;
+            top: 35px;
+        }
+
+        #foto {
+            border-radius: 25px;
+            width: 25%;
+            position: absolute;
+            top: 20%;
+        }
+
+        .description {
+            position: absolute;
+            top: 90%;
+            text-align: left;
+            padding-left: 5%;
+            padding-right: 25%;
+            
+        }
+
+        .saying-hi {
+            position: absolute;
+            top: 77%;
+            left: 26%;
+            font-size: 120%;
+            color: rgb(80, 65, 218);
+        }
+
+
+    </style>
 </head>
 
 <body>
     <header class="main-menu">
 
-        <div class="container-header">
+        <div>
             <figure>
-                <img src="assets/what-does-a-coder-do-Blog.jpg" alt="icon">
+                <img id="logo" src="assets/images/what-does-a-coder-do-Blog.jpg" alt="icon"> 
+                <p id="name">LupioCoder</p>
             </figure>
-            <p>LupioCoder</p>
+            
 
-                <div class="container-menu">
-                    <nav class="menu-module">
-                        <ul class="menu-module-list">
-                            <li>Projects</li>
-                            <li>About</li>
-                            <li>Contacts</li>
-                        </ul>
+                <div>
+                    <nav class="menu">
+                        <a href="projects.html">Projects</a>
+                        <a href="about.html">About</a>
+                        <a href="contacts.html">Contacts</a>
                     </nav>
                 </div>
         </div>
@@ -34,16 +93,16 @@
 
         <div class="container-foto">
             <figure>
-                <img src="assets/myfoto.png" alt="Iam">
+                <img id="foto" src="assets/images/myfoto.png" alt="Iam">
             </figure>
 
-            <div class="Saying-hi">
+            <div class="saying-hi">
                 <p>Hello! I am a frontend-developer!</p>
             </div>
 
         </div>
 
-        <div>
+        <div class="description">
             <article>
                 My name is Lupio and I am learning to programming right now. I have online course of IT-Girls and I am proud of being the part of these team. My stuck consists of HTML5 and CSS3. I am still learning it, but I am very goal-minded and ambitious person. So this site is made by my own. I am planning to learn also JavaScript, React and Python. Wait a little and you find my portfolio on this site soon!
             </article>
