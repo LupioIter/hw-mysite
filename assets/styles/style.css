@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(255, 254, 251)
+}
+
+img.logo {
+    width: 90px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+}
+
+@keyframes action {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+img.logo:hover {
+    animation: action 2s;
+}
+
+.mainmenu a {
+    text-decoration: none;
+    color: rgb(231, 167, 236);
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120%;
+    font-weight: bolder;
+    position: relative;
+    left: 350px;
+    top: 44px;
+
+}
+
+.mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.mainmenu li {
+    display: inline
+}
+
+.mainmenu li :hover {
+    text-decoration: underline;
+    color: rgb(80, 65, 218);
+}
+
+.mainmenu :active {
+    text-decoration: none;
+    color: rgb(231, 167, 236);
+}
+
+#name {
+    color: rgb(80, 65, 218);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 145%;
+    position: absolute;
+    left: 160px;
+    top: 35px;
+}
+
+#foto {
+    border-radius: 25px;
+    width: 28%;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+.description {
+    font-family: 'Red Hat Mono', monospace;
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 25%;
+}
+
+.saying-hi {
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 27%;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 120%;
+    font-weight: bolder;
+    color: rgb(80, 65, 218);
+}
+
+#image {
+    position: absolute;
+    top: 77%;
+    left: 17%;
+}
+
+.contacts_menu a {
+    text-decoration: none;
+    color: rgb(80, 65, 218);
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    font-weight: bolder;
+    position: relative;
+    left: 300px;
+}
+
+.contacts_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.contacts_menu li {
+    display: inline
+}
+
+.down_menu {
+    position: absolute;
+    top: 165%;
+    right: 45%;
+    padding-bottom: 28px;
+}
+
+.down_menu li :hover {
+    text-decoration: underline;
+    color: rgb(231, 167, 236);
+}
