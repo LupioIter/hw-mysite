@@ -3,10 +3,14 @@ body {
 }
 
 img.logo {
-    width: 90px;
-    border-radius: 10px;
     position: absolute;
     top: 30px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+img.logo:hover {
+    animation: action 2s;
 }
 
 @keyframes action {
@@ -19,29 +23,23 @@ img.logo {
     }
 }
 
-img.logo:hover {
-    animation: action 2s;
-}
-
 .mainmenu a {
-    text-decoration: none;
-    color: rgb(231, 167, 236);
+    position: relative;
+    left: 350px;
+    top: 44px;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 120%;
     font-weight: bolder;
-    position: relative;
-    left: 350px;
-    top: 44px;
-
+    text-decoration: none;
+    color: rgb(231, 167, 236);
 }
 
 .mainmenu ul {
-    list-style: none;
+    position: relative;
     margin: 0;
     padding: 0;
-    position: relative;
-
+    list-style: none;
 }
 
 .mainmenu li {
@@ -59,32 +57,32 @@ img.logo:hover {
 }
 
 #name {
-    color: rgb(80, 65, 218);
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 145%;
     position: absolute;
     left: 160px;
     top: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 145%;
+    font-weight: bolder;
+    color: rgb(80, 65, 218);
 }
 
 #foto {
-    border-radius: 25px;
-    width: 28%;
     position: absolute;
     top: 30%;
     left: 12%;
+    width: 28%;
+    border-radius: 25px;
 }
 
 .description {
-    font-family: 'Red Hat Mono', monospace;
     position: absolute;
     margin-top: 65%;
     margin-left: 10%;
     margin-right: 10%;
-    text-align: left;
     padding-left: 5%;
     padding-right: 25%;
+    font-family: 'Red Hat Mono', monospace;
+    text-align: left;
 }
 
 .saying-hi {
@@ -104,21 +102,21 @@ img.logo:hover {
 }
 
 .contacts_menu a {
-    text-decoration: none;
-    color: rgb(80, 65, 218);
+    position: relative;
+    left: 300px;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
     font-weight: bolder;
-    position: relative;
-    left: 300px;
+    text-decoration: none;
+    color: rgb(80, 65, 218);
 }
 
 .contacts_menu {
-    list-style: none;
+    position: relative;
     margin: 0;
     padding: 0;
-    position: relative;
+    list-style: none;
 }
 
 .contacts_menu li {
